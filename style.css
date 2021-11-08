@@ -1,0 +1,23 @@
+h1{
+ color: darkviolet;
+ font-size: 30px;
+ font-family: sans-serif;
+ text-decoration: underline;   
+}
+table{
+background-color: darkseagreen;
+    color: black;
+    border-collapse: collapse;
+    border-color: darkgrey
+    border-width: 1px
+    border-style: dashed;   
+}
+    tr:nth-child(even){
+        background-color: #fff;
+}
+    tr:nth-child(odd){
+        background-color:  #ttt;
+}
+th{
+  font-weight: 700;  
+}
